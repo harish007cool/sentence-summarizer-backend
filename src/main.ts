@@ -11,6 +11,6 @@ async function bootstrap() {
   });
 
   //await app.listen(process.env.PORT ?? 3000);
-  await app.listen('https://sentence-summarizer-backend-71j8zj43v-harish007cools-projects.vercel.app');
+  await app.listen('4000');
 }
 bootstrap();
