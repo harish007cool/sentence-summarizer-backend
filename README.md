@@ -97,3 +97,17 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+
+
+api call --------------------------------
+
+
+
+curl --location 'http://localhost:4000/summarize/' \
+--header 'Content-Type: application/json' \
+--data '{
+    "text": "Note on checksum addresses↵All Ethereum addresses returned by functions of this package are returned as checksum addresses. This means some letters are uppercase and some are lowercase. Based on that it will calculate a checksum for the address and prove its correctness. Incorrect checksum addresses will throw an error when passed into functions. If you want to circumvent the checksum check you can make an address all lower- or uppercase.",
+    "batchSize": 5
+}'
