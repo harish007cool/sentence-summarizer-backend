@@ -42,7 +42,7 @@ $ npm run start
 $ npm run start:dev
 
 http://localhost:4000/
-runing on port 4000
+running on port 4000
 
 # production mode
 $ npm run start:prod
